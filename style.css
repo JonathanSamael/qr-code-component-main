@@ -12,20 +12,18 @@ body {
     border-radius: 1rem;
     width: 15rem;
     position: absolute;
-    left: 40%;
-    bottom: 30%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#qr-code {
+main img {
     display: flex;
-    box-sizing: border-box;
-    width: 16rem;
-    height: 16rem;
-    position: relative;
-    right: 8px;
-    border: .6rem solid hsl(0, 0%, 100%);
+    border-style: 3px solid;
     border-radius: 8px;
-    margin: 0;
+    box-sizing: border-box;
+    width: 15rem;
+    height: 15rem;
 }
 
 .titulo-principal,
@@ -53,7 +51,8 @@ body {
     margin-top: .5rem;
     position: absolute;
     bottom: 0;
-    margin-left: 39%;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 .attribution a {
